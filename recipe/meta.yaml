@@ -1,18 +1,18 @@
 {% set name = "esi-utils-vectors" %}
-{% set version = "1.0.2" %}
+{% set version = "1.0.3" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/esi-utils-vectors-{{ version }}.tar.gz
-  sha256: 011238b8c6e8f5921afb119f433649571e01c5c951c3dca046afbc97b9c467ce
+  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name | replace('-', '_') }}-{{ version }}.tar.gz
+  sha256: 55c4b87e96052962d650e52742070c5022c028028ccb720dc7731f7e8ad04554
 
 build:
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv --no-deps --no-build-isolation
-  number: 1
+  number: 0
 
 requirements:
   host:
