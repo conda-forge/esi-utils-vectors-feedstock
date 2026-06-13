@@ -1,7 +1,7 @@
 {% set python_min = "3.11" %}
 
 {% set name = "esi-utils-vectors" %}
-{% set version = "1.0.3" %}
+{% set version = "1.1.0" %}
 
 package:
   name: {{ name|lower }}
@@ -9,7 +9,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name | replace('-', '_') }}-{{ version }}.tar.gz
-  sha256: 55c4b87e96052962d650e52742070c5022c028028ccb720dc7731f7e8ad04554
+  sha256: 1766a75a49d3d66b8d9cb3c76629fb1cda8ac14bb3370cebedc2e6d51364a7ff
 
 build:
   noarch: python
