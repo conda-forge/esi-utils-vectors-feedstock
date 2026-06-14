@@ -3,9 +3,9 @@ About esi-utils-vectors-feedstock
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/esi-utils-vectors-feedstock/blob/main/LICENSE.txt)
 
-Home: https://code.usgs.gov/ghsc/esi/esi-utils-vectors
+Home: https://pypi.org/project/esi-utils-vectors/
 
-Package license: Unlicense
+Package license: CC0-1.0
 
 Summary: USGS Earthquake Impact Utilities for Vectors
 
